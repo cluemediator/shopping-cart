@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 
@@ -6,7 +7,7 @@ function Layout() {
     <>
       <Header />
       <hr className="my-2" />
-      Content
+      <Outlet />
       <hr className="my-2" />
       <Footer />
     </>
