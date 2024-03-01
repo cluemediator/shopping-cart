@@ -9,8 +9,8 @@ function Header() {
   ];
 
   return (
-    <div className="shadow">
-      <div className="mx-auto max-w-7xl flex justify-between">
+    <div className="shadow bg-white">
+      <div className="mx-auto max-w-7xl px-4 flex justify-between">
         <div className="flex items-center gap-4">
           <NavLink to="/">
             <img
